@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ -z "$(uname -r | grep 2712)" ] ; then
+    apt install -y /opt/wirepod/wirepod_armhf-*.deb
+else
+    apt install -y /opt/wirepod/wirepod_arm64-*.deb
+fi

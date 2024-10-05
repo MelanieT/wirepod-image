@@ -6,3 +6,4 @@ SKIP
 SKIP_IMAGES
 .pc
 *-pc
+stage-escapepod/02-install/00-packages
